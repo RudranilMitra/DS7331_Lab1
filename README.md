@@ -1,2 +1,2 @@
-# DS7331_Lab1
-SMU Machine Learning Lab 1
+# SMU DS7331 
+SMU Machine Learning 1 - Lab 1
