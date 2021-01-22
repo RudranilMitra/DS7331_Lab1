@@ -1,27 +1,15 @@
-﻿Field,Description,Type
-Unnamed: 0,"id for the entry in the dataset ranging from 0 - 458,212",integer
-id,Unique Craigslist identifier for the listing,integer
-url,URL for the listing,object
-region,"Craig's list region, usually a city like las vegas.  In some cases it willl be the whole state, e.g., wyoming.  There are 405 unique regions.",object
-region_url,"The URL for the regional site, e.g., https://newyork.craigslist.org/.  There are  413 unique region_urls.",object
-price,The price of the used car in USD from 0 - 3.5 billion,integer
-year,The year the car was made from 1900 - 2021,float
-manufacturer,"The manufacturer of the car, e.g., honda or jeep.  There are 44 unique manufacturers. ",object
-model,"The model of the car, e.g. f150, malibu, or focus.  There are 31,521 unique models.",object
-condition,"The condition of the car with these values: 'salvage',   'fair',  'good', 'excellent', 'like new',' new'",object
-cylinders,Number of cylinders ranging from 3 - 12 as well as an 'other' category.,object
-fuel,"Type of fuel with these values:  'gas', 'diesel', 'other', 'hybrid', 'electric'",object
-odometer,Mileage recorded,float
-title_status,"Indicates what the title_status of the car is:  'clean', 'lien', 'missing', 'salvage', 'rebuilt', 'parts only'",object
-transmission,"Type of transmission:  'other', 'automatic', 'manual'",object
-VIN,Vehicle Identification Number,object
-drive,"Type of drive: ' rwd', 'fwd',  '4wd'  ",object
-size,"Size of the car:  full-size', 'mid-size', 'compact', 'sub-compact'",object
-type,"Type of vehicle with 14 values:  'other', 'sedan', 'SUV', 'pickup', 'coupe', 'van', 'truck', 'mini-van', 'wagon', 'convertible', 'hatchback', 'bus', 'offroad'",object
-paint_color,"Color of the car with 13 values:  'blue', 'red', 'silver', 'black', 'white', 'grey', 'orange', 'green', 'yellow', 'custom', 'brown', 'purple'",object
-image_url,The URL for the car image.,object
-description,Free form text field describing the car.,object
-state,State of listing including all 50 states and DC,object
-lat,Geolocation of the listing,float
-long,Geocloacation of the listing,float
-posting_date,Date that the listing was posted to Craigslist,object
+"Field,Description,Type"
+"price,The price of the used car in USD from 0 - 3.5 billion,integer"
+"year,The year the car was made from 1900 - 2021,float"
+"manufacturer,""The manufacturer of the car, e.g., honda or jeep.  There are 44 unique manufacturers. "",object"
+"model,""The model of the car, e.g. f150, malibu, or focus.  There are 31,521 unique models."",object"
+"condition,""The condition of the car with these values: 'salvage',   'fair',  'good', 'excellent', 'like new',' new'"",object"
+"cylinders,Number of cylinders ranging from 3 - 12 as well as an 'other' category.,object"
+"fuel,""Type of fuel with these values:  'gas', 'diesel', 'other', 'hybrid', 'electric'"",object"
+"odometer,Mileage recorded,float"
+"title_status,'Indicates what the title_status of the car is:  'clean', 'lien', 'missing', 'salvage', 'rebuilt', 'parts only', obj"
+"transmission,""Type of transmission:  'other', 'automatic', 'manual'"",object"
+"drive,""Type of drive: ' rwd', 'fwd',  '4wd'  "",object"
+"type,""Type of vehicle with 14 values:  'other', 'sedan', 'SUV', 'pickup', 'coupe', 'van', 'truck', 'mini-van', 'wagon', 'convertible','hatchback', 'bus', 'offroad',object"
+"paint_color,""Color of the car with 13 values:  'blue', 'red', 'silver', 'black', 'white', 'grey', 'orange', 'green', 'yellow',object"
+"state,State of listing including all 50 states and DC,object"
